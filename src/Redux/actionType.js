@@ -1,0 +1,5 @@
+export const LOADING = 'LOADING';
+export const ERROR = 'ERROR';
+export const  GOTCHARACTER = "GOTCHARACTER"
+export const DELETECHARACTER = "DELETECHARACTER"
+export const FAVCHARACTER = "FAVCHARACTER"

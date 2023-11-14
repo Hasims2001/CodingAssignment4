@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Problem Statement
+Building a React Application with Mock API Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective:
+Develop a React application that interacts with a mock API to display and manage a list of data items (e.g., comic characters). The application should provide features for loading data, handling loading states and API failures, selecting/deselecting items with checkboxes, and performing actions like delete and favorite on the selected items.
 
-## Available Scripts
+Features
+List Display with Mock API:
+Utilize a mock API to fetch and display a list of at least 1000 data items
+(e.g., comic characters) in the application.
+Implement loading indicators to inform users while waiting for API results.
+Implement error handling to gracefully manage API failures.
 
-In the project directory, you can run:
+Checkbox Selection:
+Each item in the list should have a checkbox for selection.
+Users should be able to select or deselect items by toggling the checkboxes.
 
-### `npm start`
+Item Highlighting:
+Implement a visual cue to highlight selected items, making it clear which items are 
+currently selected.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Actions on Selected Items:
+Provide the following actions to be performed on the selected items:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Delete:
+Users should be able to delete the selected items from the list.
 
-### `npm test`
+Favorite:
+Allow users to mark selected items as favorites.
+Store the favorite status in the local storage to persist across page reloads.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Technical Requirements:
+React Components:
+Create modular and reusable React components to manage the UI elements such as the 
+list, checkboxes, loading indicators, etc.State Management:
 
-### `npm run build`
+Use React state to manage the selected items, loading states, and other relevant 
+application state.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mock API Integration:
+Choose or create a mock API to simulate data fetching.
+Implement asynchronous calls to the mock API using fetch or other suitable methods.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Error Handling:
+Implement error handling for API failures, displaying appropriate messages to users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Local Storage:
+Utilize the browser's local storage to persist the favorite status of items.
+Styling:
 
-### `npm run eject`
+Apply suitable styles to enhance the user interface and provide a visually appealing
+experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Responsive Design:
+Ensure that the application is responsive and works well on different screen sizes.
+Additional Considerations:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Testing:
+Implement unit tests to validate the functionality of components and functions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Documentation:
+Provide clear documentation for setting up the project, running the application, and
+any other relevant details.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Code Comments:
+Add comments in the code to explain complex logic or any crucial implementation 
+details.
 
-## Learn More
+Version Control:
+Use a version control system (e.g., Git) to track changes and manage the project's 
+codebase.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+User Feedback:
+Consider providing feedback to users for successful actions, errors, or other 
+relevant interactions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Delivery:
+Submit the React codebase along with any necessary setup instructions and 
+documentation.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project aims to showcase your proficiency in building a responsive and 
+interactive React application with API integration, state management, and 
+local storage usage.
